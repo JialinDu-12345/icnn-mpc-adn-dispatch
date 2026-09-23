@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this repository."
+title: "Learning-Augmented MPC with an ICNN-Based Value Function for Economic Dispatch of Active Distribution Networks"
+type: software
+version: "1.0.0"
+date-released: "2026-07-14"
+license: MIT
+repository-code: "https://github.com/JialinDu-12345/icnn-mpc-adn-dispatch"
+authors:
+  - family-names: "Du"
+    given-names: "Jialin"
+    affiliation: "University of Electronic Science and Technology of China"
+  - family-names: "Cao"
+    given-names: "Di"
+    affiliation: "University of Electronic Science and Technology of China"
+  - family-names: "Hu"
+    given-names: "Weihao"
+    affiliation: "University of Electronic Science and Technology of China"
+  - family-names: "Zhao"
+    given-names: "Pengfei"
+    affiliation: "University of Electronic Science and Technology of China"
+  - family-names: "Zhang"
+    given-names: "Zhenyuan"
+    affiliation: "University of Electronic Science and Technology of China"
+  - family-names: "Chen"
+    given-names: "Zhe"
+    affiliation: "Aalborg University"
+keywords:
+  - "active distribution network"
+  - "economic dispatch"
+  - "model predictive control"
+  - "deep reinforcement learning"
+  - "input convex neural network"
+preferred-citation:
+  type: article
+  title: "Learning-Augmented MPC with an ICNN-Based Value Function for Economic Dispatch of Active Distribution Networks"
+  year: 2026
+  authors:
+    - family-names: "Du"
+      given-names: "Jialin"
+    - family-names: "Cao"
+      given-names: "Di"
+    - family-names: "Hu"
+      given-names: "Weihao"
+    - family-names: "Zhao"
+      given-names: "Pengfei"
+    - family-names: "Zhang"
+      given-names: "Zhenyuan"
+    - family-names: "Chen"
+      given-names: "Zhe"
