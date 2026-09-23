@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\caption{SACLag Voltage-Violation Diagnostic Cases on the 33-Bus System}
+\label{tab:saclag_violation_stress_33}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4.2pt}
+\begin{tabular}{cccc}
+\toprule
+Scenario & Cost (\$) & Vio. (p.u.) & Violated steps \\
+\midrule
+20 & 1419.98 & 0.0037 & 1 \\
+25 & 1372.88 & 0.0036 & 1 \\
+0 & 1436.89 & 0.0034 & 1 \\
+23 & 1398.52 & 0.0032 & 1 \\
+1 & 1361.26 & 0.0031 & 1 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5mm}
+\parbox{0.98\linewidth}{\footnotesize
+These diagnostic cases are selected from a larger candidate scenario pool because the pretrained SACLag policy exhibits positive voltage-limit violations. They are not used to replace the fixed held-out test scenarios in the main 33-bus table. The screening protocol is stochastic_sampled_action with eval seed 0.
+}
+\end{table}

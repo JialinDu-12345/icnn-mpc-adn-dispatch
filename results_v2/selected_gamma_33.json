@@ -1,0 +1,8 @@
+{
+  "system": "33",
+  "selected_gamma_Q": 0.3,
+  "allow_incomplete_selection": false,
+  "selection_rule": "Choose the gamma_Q with the lowest validation mean completed cost among candidates with 100% completed validation scenarios and zero solver failures. If no candidate satisfies this, return None by default. With --allow-incomplete-selection, rank by completed_rate, fail_count, mean_completed_cost, and mean_time_s for diagnostic use.",
+  "raw_path": "formal/step3_33_gamma_validation_raw.csv",
+  "summary_path": "formal/step3_33_gamma_validation_summary.csv"
+}
