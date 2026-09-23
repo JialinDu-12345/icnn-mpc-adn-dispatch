@@ -1,0 +1,7 @@
+# Store this release directly in Git; Git LFS is not required.
+# Keep binary artifacts byte-for-byte without text conversions.
+*.npz -filter -diff -merge -text
+*.pth -filter -diff -merge -text
+*.xlsx -filter -diff -merge -text
+*.pdf -filter -diff -merge -text
+*.png -filter -diff -merge -text
