@@ -1,0 +1,17 @@
+\begin{tabular}{lllllllllllllllll}
+\toprule
+method & display\_forecast\_case & horizon & gamma\_Q & n\_completed & completed\_rate & certified\_global\_rate & mean\_cost & ci95\_cost & mean\_gap\_to\_perfect\_percent & ci95\_gap\_to\_perfect\_percent & mean\_voltage\_violation & ci95\_voltage\_violation & mean\_solve\_time\_s & ci95\_solve\_time\_s & mean\_num\_bin\_vars & mean\_mip\_gap \\
+\midrule
+Perfect-Global & full actual trajectory & 48.000 &  & 20.000 & 1.0000 & 0.0000 & 1313.0 & 19.728 & 0.0000 & 0.0000 &  &  & 1800.9 & 0.2102 & 0.0000 & 0.0013 \\
+Oracle-H3 & perfect & 3.0000 &  & 20.000 & 1.0000 &  & 1670.5 & 26.245 & 27.226 & 0.6074 &  &  & 70.384 & 8.9812 &  &  \\
+Oracle-H7 & perfect & 7.0000 &  & 20.000 & 1.0000 &  & 1578.2 & 22.111 & 20.219 & 0.8193 &  &  & 1934.1 & 232.11 &  &  \\
+MPC-3 & id\_reliable & 3.0000 &  & 20.000 & 1.0000 &  & 1683.0 & 26.969 & 28.176 & 0.6467 &  &  & 70.184 & 9.0889 &  &  \\
+MPC-5 & id\_reliable & 5.0000 &  & 20.000 & 1.0000 &  & 1625.7 & 25.752 & 23.830 & 1.0060 &  &  & 501.05 & 83.338 &  &  \\
+MPC-7 & id\_reliable & 7.0000 &  & 20.000 & 1.0000 &  & 1594.1 & 27.636 & 21.423 & 1.2996 &  &  & 1687.4 & 202.61 &  &  \\
+StdNN-H3-MIP & id\_reliable & 3.0000 & 0.3000 & 20.000 & 1.0000 &  & 1546.0 & 48.658 & 17.765 & 3.4485 &  &  & 98.469 & 5.1568 & 69.376 & 0.0004 \\
+SAC & - & 0.0000 &  & 20.000 & 1.0000 &  & 1406.3 & 19.708 & 7.1124 & 0.3139 & 0.2656 & 0.0177 & 0.5290 & 0.0384 &  &  \\
+SAC-ICNN & - & 0.0000 &  & 20.000 & 1.0000 &  & 1941.2 & 19.624 & 47.902 & 0.8173 & 1.0973 & 0.0365 & 0.5480 & 0.0307 &  &  \\
+SACLag & - & 0.0000 &  & 20.000 & 1.0000 &  & 1458.5 & 21.059 & 11.088 & 0.3936 & 0.0009 & 0.0004 & 0.3799 & 0.0290 &  &  \\
+Proposed-H3 & id\_reliable & 3.0000 & 0.3000 & 20.000 & 1.0000 &  & 1334.7 & 20.726 & 1.6470 & 0.2309 &  &  & 33.161 & 1.1458 &  &  \\
+\bottomrule
+\end{tabular}

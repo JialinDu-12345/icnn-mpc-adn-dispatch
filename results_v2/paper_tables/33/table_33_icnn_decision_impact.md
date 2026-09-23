@@ -1,0 +1,5 @@
+| Terminal state source | Oracle tail cost ($) | Tail-cost reduction vs. MPC-3 (%) | Closed-loop vio. (p.u.) |
+| --------------------- | -------------------- | --------------------------------- | ----------------------- |
+| MPC-3                 | 1057.88              | 0.00                              | 0.0000                  |
+| Proposed-H3           | 951.85               | 8.21                              | 0.0000                  |
+| Perfect-Global        |                      |                                   |                         |
