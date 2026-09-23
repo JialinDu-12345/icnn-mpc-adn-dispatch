@@ -1,0 +1,2 @@
+﻿system,input,mip_gap_target,n_scanned,n_completed,n_certified,n_selected_by_rule,n_failed_or_incomplete,completed_rate,certified_rate,selected_rate,mean_cost_completed,mean_time_completed_s,mean_mip_gap_certified,selected_scenarios
+119,formal/step10_119_inline_screen_log.csv,0.001,1,0,0,0,1,0.0,0.0,0.0,nan,nan,nan,

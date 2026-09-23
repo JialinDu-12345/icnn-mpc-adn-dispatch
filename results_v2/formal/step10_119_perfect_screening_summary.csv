@@ -1,0 +1,2 @@
+﻿system,input,mip_gap_target,n_scanned,n_completed,n_certified,n_selected_by_rule,n_failed_or_incomplete,completed_rate,certified_rate,selected_rate,mean_cost_completed,mean_time_completed_s,mean_mip_gap_certified,selected_scenarios
+119,formal/step10_119_perfect_global_scan_raw.csv,0.001,19,10,10,10,9,0.5263157894736842,0.5263157894736842,0.5263157894736842,1876.859232049877,286.03900001049044,0.0007958808744823373,"800,801,804,805,806,808,809,810,812,814"

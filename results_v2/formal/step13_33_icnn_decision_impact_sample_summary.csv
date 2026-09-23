@@ -1,0 +1,4 @@
+﻿terminal_state_source,n_matched_with_mpc3,mean_oracle_tail_cost,std_oracle_tail_cost,ci95_oracle_tail_cost,mean_tail_cost_reduction_vs_mpc3_percent,ci95_tail_cost_reduction_vs_mpc3_percent,mean_closed_loop_violation_pu
+MPC-3,30,1057.8780717417874,388.87658537845897,139.15769889294555,0.0,0.0,0.0
+Proposed-H3,30,951.8533982510038,329.7824889045483,118.01114805223594,8.211516577095232,3.374505406432158,0.0
+Perfect-Global,0,nan,nan,nan,nan,nan,nan

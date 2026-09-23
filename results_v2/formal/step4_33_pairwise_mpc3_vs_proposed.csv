@@ -1,0 +1,2 @@
+﻿baseline,target,n_matched,mean_cost_diff,std_cost_diff,ci95_cost_diff,mean_cost_reduction_percent,std_cost_reduction_percent,ci95_cost_reduction_percent,mean_time_diff_s,std_time_diff_s,ci95_time_diff_s,mean_time_reduction_percent,std_time_reduction_percent,ci95_time_reduction_percent
+MPC-3,Proposed-H3,20,-348.3098893228893,22.996863995557685,10.078820028023342,20.68777864965288,0.9602629532956445,0.4208537950093783,-37.023249971866605,19.953956170437834,8.745206873761473,49.70688602576092,11.609314832873459,5.088006559146326
