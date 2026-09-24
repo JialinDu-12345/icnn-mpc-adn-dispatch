@@ -795,10 +795,9 @@ def plot_single_dispatch_schedule(
     pv = parse_json_list(row.get("step_pv_11_json"), n_steps)
     wt = parse_json_list(row.get("step_wind_26_json"), n_steps)
 
-    soc_min = 0.125
-    soc_max = 2.375
-    soc_percent = 100.0 * (soc_mwh - soc_min) / (soc_max - soc_min)
-    soc_percent = np.clip(soc_percent, 0.0, 100.0)
+    # Physical SOC uses the 2.5 MWh rated capacity: 0.125-2.375 MWh = 5-95%.
+    ess_capacity_mwh = 2.5
+    soc_percent = 100.0 * soc_mwh / ess_capacity_mwh
     soc_x = np.concatenate(([-0.5], x))
     soc_percent_plot = np.concatenate(([50.0], soc_percent))
 
@@ -955,8 +954,10 @@ def plot_single_dispatch_schedule(
         right_ymax=105.0,
         zero_value=0.0,
     )
-    ax2.set_ylim(right_ymin, right_ymax)
-    ax2.set_yticks([0, 25, 50, 75, 100])
+    # Convert the former 0-100 usable-range axis to physical SOC while
+    # preserving the trajectory positions and the existing power-axis layout.
+    ax2.set_ylim(5.0 + 0.9 * right_ymin, 5.0 + 0.9 * right_ymax)
+    ax2.set_yticks([5, 25, 50, 75, 95])
     ax2.set_ylabel("SOC (%)", fontsize=17)
     ax2.tick_params(axis="y", labelsize=13)
     for spine in ax2.spines.values():
